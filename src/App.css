@@ -1,0 +1,73 @@
+.body-container {
+  display: flex;
+}
+
+header {
+  background-color: red;
+  margin-top: -20px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.puppies-container {
+  flex: 1;
+}
+
+.insert-container {
+  flex: 1;
+}
+.puppies-outer {
+  text-align: center;
+  background-color: purple;
+  padding-left: 250px;
+  max-height: 250px;
+}
+.puppies-inner {
+  background-color: red;
+  max-height: 240px;
+}
+
+.puppy-image > img {
+  max-width: 180px;
+
+}
+
+.puppy-container {
+  display: flex;
+  margin-left: 250px;
+  background-color: red;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.puppy-image {
+  flex: 2;
+}
+
+.puppy-info {
+  flex: 2.5;
+}
+
+.puppy-info > button {
+  background-color: green;
+}
+
+#delete-button {
+  margin-right: 140px;
+}
+
+.insert-info {
+  margin: 0 auto;
+  background-color: green;
+  width: 400px;
+  padding: 10px;
+  height: 500px;
+}
+
+.input {
+  width: 300px;
+}
+
+.imagePreview {
+  max-width: 400px;
+}
